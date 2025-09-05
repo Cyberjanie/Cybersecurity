@@ -11,7 +11,7 @@ Objectif : apprendre, expérimenter et documenter mes progrès en cybersécurit�
 ### 🔎 Web Reconnaissance
 - [**Lab 1 – Gobuster**](Lab_1_Gobuster/)  
   Objectif : découvrir des répertoires cachés sur un serveur Apache en utilisant Gobuster.  
-  👉 [Rapport PDF](Lab01-Gobuster/HomeLab.pdf)
+  👉 [Rapport PDF](cybersecurity-homelab_01_gobuster_biffé.pdf)
 
 ---
 
