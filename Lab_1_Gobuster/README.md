@@ -1,5 +1,5 @@
 # Cybersecurity
-# 🕵️‍♀️ Home Lab – Gobuster & Apache
+# 🕵️‍♀️ Home Lab_1  Gobuster 
 
 ## 🎯 Objectif
 Mettre en place un **home lab de cybersécurité** pour apprendre à découvrir des répertoires cachés d’un site web à l’aide de **Gobuster**.
