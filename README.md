@@ -1,56 +1,41 @@
-# Cybersecurity
-# 🕵️‍♀️ Home Lab – Gobuster & Apache
+# 🛡️ Cybersecurity Home Labs
 
-## 🎯 Objectif
-Mettre en place un **home lab de cybersécurité** pour apprendre à découvrir des répertoires cachés d’un site web à l’aide de **Gobuster**.
-
-## 🛠️ Environnement
-- **VirtualBox** – gestionnaire de VM  
-- **Ubuntu Server 22.04** – machine cible (hébergeant Apache + répertoires cachés)  
-- **Kali Linux** – machine attaquante (exécution de Gobuster)  
-
-## ⚙️ Étapes principales
-1. **Installation d’Ubuntu Server**  
-   - Téléchargement de l’ISO depuis [ubuntu.com](https://ubuntu.com/download/server).  
-   - Configuration minimale :  
-     - RAM : 2–4 Go  
-     - CPU : 2 cœurs  
-     - Disque : 20–30 Go  
-   - Partitionnement avec LVM activé.  
-
-2. **Configuration réseau**  
-   - Problème initial : Kali ne voyait pas Ubuntu en mode NAT.  
-   - Solution : ajout d’un **Adapter 2 en Host-only** sur les deux VMs.  
-   - Attribution d’une IP avec `dhclient` et configuration via Netplan.  
-   - Vérification de la connectivité avec `ping`.  
-
-3. **Test avec Gobuster**  
-   - Commande utilisée :  
-     ```bash
-     gobuster dir -u http://<IP_Ubuntu> -w /usr/share/wordlists/dirb/common.txt
-     ```  
-   - Résultats : découverte de répertoires avec différents codes (200, 301, 403).  
-
-## 📑 Résultats et apprentissages
-- Compréhension du rôle des **wordlists** dans la reconnaissance web.  
-- Interprétation des codes HTTP :  
-  - **200** → accessible  
-  - **301** → redirection (souvent ajout du `/`)  
-  - **403** → interdit  
-  - **404** → inexistant  
-- Importance de la configuration réseau dans VirtualBox (NAT vs Host-only).  
-- Notion de légalité : ⚠️ **Gobuster ne doit être utilisé que sur ses propres systèmes ou avec autorisation.**
-
-## 📂 Documentation complète
-📄 Le rapport détaillé (avec captures d’écran et explications étape par étape) est disponible ici :  
-👉 [cybersecurity-homelab_01_gobuster](https://github.com/Cyberjanie/Cybersecurity/blob/main/cybersecurity-homelab_01_gobuster_biff%C3%A9.pdf)
-
-## ✅ Conclusion
-Ce premier lab a permis de :  
-- Construire un environnement d’attaque/défense réaliste.  
-- Mettre en pratique un scan de répertoires web.  
-- Apprendre à documenter les difficultés et solutions rencontrées.  
+Bienvenue dans mon portfolio de **labs en cybersécurité** 🎯  
+Chaque lab est une mise en pratique concrète d’un outil ou d’une technique de sécurité offensive/défensive.  
+Objectif : apprendre, expérimenter et documenter mes progrès en cybersécurité.
 
 ---
 
-👩‍💻 *Projet réalisé dans le cadre de mon apprentissage en cybersécurité.*  
+## 📂 Liste des labs
+
+### 🔎 Web Reconnaissance
+- [**Lab 01 – Gobuster & Apache**](Lab01-Gobuster/)  
+  Objectif : découvrir des répertoires cachés sur un serveur Apache en utilisant Gobuster.  
+  👉 [Rapport PDF](Lab01-Gobuster/HomeLab.pdf)
+
+---
+
+## 📚 Ce que j’apprends à travers ces labs
+- Monter et configurer un **home lab** réaliste (VirtualBox, Kali, Ubuntu).  
+- Utiliser des outils de **reconnaissance et d’énumération** (ex. Gobuster).  
+- Comprendre et interpréter les **codes HTTP** (200, 301, 403, 404).  
+- Configurer correctement le **réseau VM** (NAT, Host-only).  
+- Documenter mes démarches de manière professionnelle (README + PDF).  
+
+---
+
+## 🛠️ Environnement utilisé
+- VirtualBox pour la gestion des VMs.  
+- Kali Linux (attaquant).  
+- Ubuntu Server (cible).  
+- Outils de pentest (Gobuster, Nmap, Hydra, etc.).  
+
+---
+
+## 👩‍💻 Auteur
+- **Nom** : Janie Sarrazin  
+- **Date de début du projet** : Septembre 2025  
+
+---
+
+✨ Ce dépôt est en évolution constante : de nouveaux labs seront ajoutés au fur et à mesure de ma progression en cybersécurité.
