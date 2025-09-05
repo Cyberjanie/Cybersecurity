@@ -43,7 +43,7 @@ Mettre en place un **home lab de cybersécurité** pour apprendre à découvrir 
 
 ## 📂 Documentation complète
 📄 Le rapport détaillé (avec captures d’écran et explications étape par étape) est disponible ici :  
-👉 [HomeLab.pdf](docs/HomeLab.pdf)
+👉 [cybersecurity-homelab_01_gobuster_biffé.pdf](Cybersecuritu/cybersecurity-homelab_01_gobuster_biffé.pdf)
 
 ## ✅ Conclusion
 Ce premier lab a permis de :  
