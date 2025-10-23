@@ -13,8 +13,8 @@ Objectif : apprendre, expérimenter et documenter mes progrès en cybersécurit�
   Objectif : découvrir des répertoires cachés sur un serveur Apache en utilisant Gobuster.  
   👉 [Rapport PDF](Lab_1_Gobuster/cybersecurity-homelab_01_gobuster_biffé.pdf)
 
- - [**Lab 2 – création d'un algorithme de chiffrement**](Lab_1_Gobuster/)  
-  Objectif : mettre en pratique la cryptographie appliquée en implémentant un algorithme de chiffrement inspiré d’AES‑128
+ - [**Lab 2 – Création d'un algorithme de chiffrement**](Lab_1_Gobuster/)  
+  Objectif : mettre en pratique la cryptographie appliquée en implémentant un algorithme de chiffrement inspiré d’AES‑128.  
   👉 [Rapport PDF](Lab_1_Gobuster/cybersecurity-homelab_01_gobuster_biffé.pdf)
 
    
