@@ -15,7 +15,7 @@ Objectif : apprendre, expérimenter et documenter mes progrès en cybersécurit�
 
  - [**Lab 2 – Encryption**](Lab_1_Gobuster/)  
   Objectif : mettre en pratique la cryptographie appliquée en implémentant un algorithme de chiffrement inspiré d’AES‑128.  
-  👉 [Rapport PDF](Lab_1_Gobuster/cybersecurity-homelab_01_gobuster_biffé.pdf)
+  👉 [Rapport PDF](https://github.com/Cyberjanie/Cybersecurity/blob/a24725b0b488dc61e6b1957cecc9d7ca7dffb754/Lab_2_Encryption_/Projet%20de%20session%20-%20Algorithme%20(cryptographie).pdf)
 
    
 
