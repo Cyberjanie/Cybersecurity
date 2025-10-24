@@ -41,5 +41,5 @@ Le code Python inclut une partie dédiée à la génération des sous-clés, au 
 
 ---
 
-*Projet réalisé dans le cadre de mes études en cybersécurité au Collège Cumberland.*
+*Projet réalisé dans le cadre de mes études en cybersécurité au Collège Cumberland. Créé par Janie Sarrazin, Chloé Arseneault, Stacey Denis et Amélie Rivard.*
 
