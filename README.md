@@ -27,7 +27,8 @@ Objectif : apprendre, expérimenter et documenter mes progrès en cybersécurit�
 - Utiliser des outils de **reconnaissance et d’énumération** (ex. Gobuster).  
 - Comprendre et interpréter les **codes HTTP** (200, 301, 403, 404).  
 - Configurer correctement le **réseau VM** (NAT, Host-only).  
-- Documenter mes démarches de manière professionnelle (README + PDF).  
+- Documenter mes démarches de manière professionnelle (README + PDF).
+- Comprendre le fonctionnement d'un algorithme de chiffrement à clé symétrique
 
 ---
 
