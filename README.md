@@ -5,6 +5,9 @@ Chaque lab est une mise en pratique concrète d’un outil ou d’une technique 
 Objectif : apprendre, expérimenter et documenter mes progrès en cybersécurité.
 
 ---
+## 📂 Liste des projets
+
+
 
 ## 📂 Liste des labs
 
@@ -18,8 +21,6 @@ Objectif : apprendre, expérimenter et documenter mes progrès en cybersécurit�
   👉 [Rapport PDF](https://github.com/Cyberjanie/Cybersecurity/blob/a24725b0b488dc61e6b1957cecc9d7ca7dffb754/Lab_2_Encryption_/Projet%20de%20session%20-%20Algorithme%20(cryptographie).pdf) 
   👉 [L'algorithme](Lab_2_Encryption_/algo7.py)  
    
-
-
 ---
 
 ## 📚 Ce que j’apprends à travers ces labs
